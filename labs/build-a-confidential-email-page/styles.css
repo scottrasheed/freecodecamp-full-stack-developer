@@ -1,0 +1,35 @@
+body {
+  background-color: #222;
+  font-family: Arial, sans-serif;
+}
+
+#email {
+  padding: 50px;
+  margin-top: 50px;
+  width: 500px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+#confidential,
+#top-secret {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 10px;
+  border: 2px solid red;
+  color: red;
+  font-weight: bold;
+}
+
+#confidential {
+  transform: rotate(-5deg);
+}
+
+#top-secret {
+  transform: rotate(5deg);
+}
+
+.blurred {
+  filter: blur(3px);
+}
